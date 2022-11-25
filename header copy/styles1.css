@@ -1,0 +1,189 @@
+
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+<link rel="stylesheet" href="https://kit.fontawesome.com/14c8199891.js">
+/* Style the body */
+body {
+  font-family: Arial;
+  font-size: 40px;
+  margin: 0;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+p {
+  font-size: 30px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/* Header/Logo Title */
+.header {
+  padding: 2px;
+  text-align: center;
+  background: #e5d9c6;
+  color: rgb(0, 0, 0);
+}
+
+/* Page Content */
+.content {padding:30px;}
+
+
+{
+  margin: 0;
+  border: 3px solid green;
+
+}
+.topnav {
+  background-color: rgb(90, 88, 88);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #dedcdc;
+  text-align: center;
+  padding: 20px 16px;
+  text-decoration: none;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 18px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #e5d9c6;
+  color: rgb(128, 127, 127);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #454440;
+  color: rgb(255, 255, 255);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style the search field */
+form.example input[type=text] {
+  padding: 5px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 10%;
+  background: #f1f1f1;
+}
+
+/* Style the submit button */
+form.example button {
+  float: left;
+  width: 5%;
+  padding: 5px;
+  background: #777771;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none; /* Prevent double borders */
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #0e1113;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+/* Style buttons */
+.btn {
+  background-color:#ffffff; 
+  border: none; /* Remove borders */
+  color: rgb(154, 150, 150); /* White text */
+  padding: 10px 9px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: rgb(222, 217, 217);
+}
+
+
+h3 {
+  font-size: 30px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 88%;
+}
+
+h3
+{text-align: center;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: rgb(90, 88, 88);
+  color: rgb(226, 226, 215);
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/* unvisited link */
+a:link {
+  color: rgb(208, 203, 138);
+}
+
+/* visited link */
+a:visited {
+  color: rgb(218, 207, 202);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(212, 174, 209);
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+
+/* Style buttons */
+.btn {
+  background-color: DodgerBlue; /* Blue background */
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  padding: 12px 16px; /* Some padding */
+  font-size: 16px; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+</body>
+</html>
+
