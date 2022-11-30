@@ -5,8 +5,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
+<link rel="styles1" href="path/to/font-awesome/css/font-awesome.min.css">
 
-<link rel="stylesheet" href="https://kit.fontawesome.com/14c8199891.js">
 /* Style the body */
 body {
   font-family: Arial;
@@ -30,6 +30,7 @@ p {
   text-align: center;
   background: #e5d9c6;
   color: rgb(0, 0, 0);
+  
 }
 
 /* Page Content */
@@ -55,6 +56,7 @@ p {
   text-decoration: none;
   font-family: "Trebuchet MS", Helvetica, sans-serif;
   font-size: 18px;
+  
 }
 
 /* Change the color of links on hover */
@@ -143,46 +145,43 @@ h3
 footer {
   text-align: center;
   padding: 3px;
+  margin-top: 50px;
   background-color: rgb(90, 88, 88);
   color: rgb(226, 226, 215);
   font-family: "Trebuchet MS", Helvetica, sans-serif;
 }
 
-/* unvisited link */
-a:link {
-  color: rgb(208, 203, 138);
-}
-
-/* visited link */
-a:visited {
-  color: rgb(218, 207, 202);
-}
-
-/* mouse over link */
-a:hover {
-  color: rgb(212, 174, 209);
-}
-
-/* selected link */
-a:active {
-  color: blue;
-}
 
 
-/* Style buttons */
-.btn {
-  background-color: DodgerBlue; /* Blue background */
-  border: none; /* Remove borders */
-  color: white; /* White text */
-  padding: 12px 16px; /* Some padding */
-  font-size: 16px; /* Set a font size */
-  cursor: pointer; /* Mouse pointer on hover */
+/* the boxes */
+.label {
+  color: rgb(255, 255, 255);
+  padding: 10px;
+  width: 30px;
+  padding: 20px;
+  margin:60px;
+  margin-top: 10px;
+  font-family: "Lucida Console", "Courier New", monospace;
+  
 }
 
-/* Darker background on mouse-over */
-.btn:hover {
-  background-color: RoyalBlue;
+.Quality {background-color: #744c4c;} 
+.Shipping {background-color: #744c4c} 
+.Return {background-color: #744c4c} 
+.Support {background-color: #744c4c} 
+
+
+.column {
+  padding: 0px;
 }
+
+.column img {
+  margin-bottom: 50px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
 
 </body>
 </html>
